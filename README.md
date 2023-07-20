@@ -73,7 +73,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A.
+- The content of the project summary page about powdery mildew was written with reference to [this](https://en.wikipedia.org/wiki/Powdery_mildew) Wikipedia article.
 - Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
