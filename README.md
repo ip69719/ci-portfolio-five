@@ -40,10 +40,29 @@ To save time in this process, the IT team suggested an ML system that detects in
 	* We agreed with the client a degree of 97% accuracy on the test set.
 * The model output is defined as a flag, indicating if the cherry leaf has powdery mildew and the associated probability of being infected or not. An employee will upload the picture to the App. The prediction is made on the fly (not in batches).
 
+
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
 * Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
 
+### Page 1: Quick Project Summary
+
+**General Information**
+* Powdery mildew is a fungal disease that affects a wide range of plants.
+* It is one of the easier plant diseases to identify, as its symptoms are quite distinctive.
+* Infected plants display white powdery spots on the leaves.
+* Visual criteria are used to verify if the tree leaf is healthy or has powdery mildew.
+
+* The Client is facing a challenge where their cherry plantations have been presenting powdery mildew. The cherry plantation crop is one of the finest products in the portfolio and the company concerned about supplying the market with a product of compromised quality.
+
+**Project Dataset**
+* The available dataset contains over four thousand images taken from the Client's crop fields.
+* The images show healthy cherry leaves and cherry leaves that have powdery mildew.
+
+**Business Requirements**
+* The project has two business requirements:
+    * 1 - The Client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+    * 2 - The Client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
 ## Unfixed Bugs
 * You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
