@@ -21,7 +21,15 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+
+* **Business Requirement 1**: Data Visualization 
+	* As a Client I want to display the "mean" and "standard deviation" images for cherry leaves that are healthy and cherry leaves that contain powdery mildew, so that I can visually differentiate cherry leaves.
+	* As a Client I want to display the difference between an average cherry leaf that is healthy and an average cherry leaf that contains powdery mildew, so that I can visually differentiate cherry leaves.
+	* As a Client I want to display an image montage for cherry leaves that are healthy and cherry leaves that contain powdery mildew, so that I can visually differentiate cherry leaves.
+
+* **Business Requirement 2**:  Classification
+	* As a Client I want to predict if a given cherry leaf is healthy or contains powdery mildew. 
+	* As a Client I want to build a machine learning model and generate reports.
 
 
 ## ML Business Case
