@@ -1,7 +1,11 @@
 import streamlit as st
 
+
 class MultiPage:
-# Class to generate multiple Streamlit pages using an object oriented approach
+    """
+    Class to generate multiple Streamlit pages using an
+    object oriented approach.
+    """
     def __init__(self, app_name) -> None:
         self.pages = []
         self.app_name = app_name
@@ -19,5 +23,6 @@ class MultiPage:
         # create title on each page
         st.title(self.app_name)
         # sidebar menu consisting of radio buttons
-        page = st.sidebar.radio('Menu', self.pages, format_func=lambda page: page['title'])
+        page = st.sidebar.radio(
+            'Menu', self.pages, format_func=lambda page: page['title'])
         page['function']()
