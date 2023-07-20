@@ -84,6 +84,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+* [Streamlit](https://streamlit.io/) Python-based library was used to create the dashboard for the app.
 
 
 ## Credits 
