@@ -114,5 +114,5 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 
-## Acknowledgements (optional)
-* Thank the people that provided support throughout this project.
+## Acknowledgements
+* Special thanks to my Mentor Rohit Sharma for support and guidance during this project.
