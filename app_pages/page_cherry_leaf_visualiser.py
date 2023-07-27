@@ -1,4 +1,6 @@
 import streamlit as st
+import matplotlib.pyplot as plt
+from matplotlib.image import imread
 
 
 def page_cherry_leaf_visualiser_body():
@@ -13,7 +15,12 @@ def page_cherry_leaf_visualiser_body():
     version = 'v1'
 
     if st.checkbox("Difference between average and variability images"):
-        st.warning("Average and variability of images per label goes here")
+        avg_powdery_mildew = plt.imread(f"outputs/{version}/avg_var_powdery_mildew.png")
+        avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
+
+        st.image(avg_powdery_mildew, caption='Leaf with powdery mildew - Average and Variability')
+        st.image(avg_healthy, caption='Healthy leaf - Average and Variability')
+        st.write("---")
 
     if st.checkbox("Difference between average healthy leaf and average leaf with powdery mildew"):
         st.warning("Difference between average healthy leaf and average leaf with powdery mildewgoes here")
