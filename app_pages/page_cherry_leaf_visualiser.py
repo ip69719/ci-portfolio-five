@@ -23,7 +23,9 @@ def page_cherry_leaf_visualiser_body():
         st.write("---")
 
     if st.checkbox("Difference between average healthy leaf and average leaf with powdery mildew"):
-        st.warning("Difference between average healthy leaf and average leaf with powdery mildewgoes here")
+        diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
+        st.image(diff_between_avgs, caption='Difference between average images')
+        st.write("---")
 
     if st.checkbox("Image montage"):
         st.warning("Image montage goes here")
