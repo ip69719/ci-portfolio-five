@@ -31,8 +31,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 	* As a Client I want to display an image montage for cherry leaves that are healthy and cherry leaves that contain powdery mildew, so that I can visually differentiate cherry leaves.
 
 * **Business Requirement 2**:  Classification
-	* As a Client I want to predict if a given cherry leaf is healthy or contains powdery mildew. 
-	* As a Client I want to build a machine learning model and generate reports.
+	* As a Client I want to predict if a given cherry leaf is healthy or contains powdery mildew, so that I can take appropriate action early to control the disease.
+	* As a Client I want to build a machine learning model and generate reports, so that I can benefit from efficient and reliable verification if a tree is healthy or has powdery mildew.
 
 
 ## ML Business Case
