@@ -7,6 +7,12 @@ def page_summary_body():
 
     st.info(
         f"**General Information**\n"
+
+        f"* The Client is facing a challenge where their cherry plantations "
+        f"have been presenting powdery mildew. The cherry plantation crop is "
+        f"one of the finest products in the portfolio and the company "
+        f"concerned about supplying the market with a product of compromised "
+        f"quality.\n"
         f"* Powdery mildew is a fungal disease that affects a wide range of "
         f"plants.\n"
         f"* It is one of the easier plant diseases to identify, as its "
@@ -14,12 +20,6 @@ def page_summary_body():
         f"* Infected plants display white powdery spots on the leaves.\n"
         f"* Visual criteria are used to verify if the tree leaf is healthy or "
         f"has powdery mildew.\n\n"
-
-        f"* The Client is facing a challenge where their cherry plantations "
-        f"have been presenting powdery mildew. The cherry plantation crop is "
-        f"one of the finest products in the portfolio and the company "
-        f"concerned about supplying the market with a product of compromised "
-        f"quality.\n\n"
 
         f"**Project Dataset**\n"
         f"* The available dataset contains over four thousand images taken "
