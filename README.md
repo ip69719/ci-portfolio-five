@@ -1,5 +1,7 @@
 # Cherry Leaves Mildew Detection
 
+[Link to the live project](https://ip-cherry-mildew-detection-e596dcba871a.herokuapp.com/)
+
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
 * The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
@@ -70,7 +72,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Deployment
 ### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
+* [Link to the live project](https://ip-cherry-mildew-detection-e596dcba871a.herokuapp.com/)
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
 
