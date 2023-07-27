@@ -82,10 +82,20 @@ To save time in this process, the IT team suggested an ML system that detects in
 6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
 
 
-## Main Data Analysis and Machine Learning Libraries
+## Technologies used
+
+### Languages used
+
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+### Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
 * [Streamlit](https://streamlit.io/) Python-based library was used to create the dashboard for the app.
 
+### Other Frameworks, Libraries & Programs Used
+* [Git](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/) is used to store the project code after being pushed from Git.
+* [Heroku](https://www.heroku.com/about) was used to deploy the app. 
 
 ## Credits 
 
