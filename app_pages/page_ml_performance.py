@@ -26,5 +26,5 @@ def page_ml_performance_body():
     st.write("---")
 
     st.write("### Generalised Performance on Test Set")
-    # save pickle file in output folder
+
     st.dataframe(pd.DataFrame(load_test_evaluation(version), index=['Loss', 'Accuracy']))
