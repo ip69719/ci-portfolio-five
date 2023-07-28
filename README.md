@@ -50,12 +50,14 @@ To save time in this process, the IT team suggested an ML system that detects in
 ### Page 1: Quick Project Summary
 
 **General Information**
+
+* The Client is facing a challenge where their cherry plantations have been presenting powdery mildew. The cherry plantation crop is one of the finest products in the portfolio and the company concerned about supplying the market with a product of compromised quality.
 * Powdery mildew is a fungal disease that affects a wide range of plants.
 * It is one of the easier plant diseases to identify, as its symptoms are quite distinctive.
 * Infected plants display white powdery spots on the leaves.
 * Visual criteria are used to verify if the tree leaf is healthy or has powdery mildew.
 
-* The Client is facing a challenge where their cherry plantations have been presenting powdery mildew. The cherry plantation crop is one of the finest products in the portfolio and the company concerned about supplying the market with a product of compromised quality.
+
 
 **Project Dataset**
 * The available dataset contains over four thousand images taken from the Client's crop fields.
