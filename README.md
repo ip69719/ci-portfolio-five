@@ -60,6 +60,15 @@ This is a project summary page, showing the project dataset summary and the Clie
 * Infected plants display white powdery spots on the leaves.
 * Visual criteria are used to verify if the tree leaf is healthy or has powdery mildew.
 
+**Project Dataset**
+* The available dataset contains over four thousand images taken from the Client's crop fields.
+* The images show healthy cherry leaves and cherry leaves that have powdery mildew.
+
+**Business Requirements**
+* The project has two business requirements:
+    * 1 - The Client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+    * 2 - The Client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
 ### Page 1: Cherry Leaf Visualiser**
 
 This page lists findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew. The content of this page will answer the business requirement 1.
@@ -76,17 +85,10 @@ This is a technical page displaying your model performance.
 * Model History
 * Generalised Performance on Test Set
 
-**Project Dataset**
-* The available dataset contains over four thousand images taken from the Client's crop fields.
-* The images show healthy cherry leaves and cherry leaves that have powdery mildew.
-
-**Business Requirements**
-* The project has two business requirements:
-    * 1 - The Client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
-    * 2 - The Client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
 ## Unfixed Bugs
 * You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
 
 ## Deployment
 ### Heroku
