@@ -142,15 +142,10 @@ This is a technical page displaying your model performance.
 
 ### Content 
 
+- [Code Institute Mildew Detection GitHub Repository](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) was forked and used as a template for the project.
+- [Handbook: Mildew Detection in Cherry Leaves](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+PA_PAGPPF+2021_Q4/courseware/bde016cdbd184cdeafd341a73807e138/bd2104eb84de4e48a9df6f685773cbf2/) was referenced to implement the project and parts of the README.md file.
 - The content of the project summary page about powdery mildew was written with reference to [this](https://en.wikipedia.org/wiki/Powdery_mildew) Wikipedia article.
 - Instructions on how to build a Streamlit multipage dashboard were taken from [this](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/d186ae95191f48e9a2151559c7e6f85d/fc2f9892cfa44eee9cc8bf585c21df88/4?activate_block_id=block-v1%3Acode_institute%2BCI_DA_ML%2B2021_Q4%2Btype%40vertical%2Bblock%407636b337caeb4035bd7b5568404802f6) Code Institute Streamlit lesson.
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
-
-
 
 ## Acknowledgements
 * Special thanks to my Mentor Rohit Sharma for support and guidance during this project.
