@@ -13,7 +13,7 @@ class MultiPage:
         # configure the page using streamlit method
         st.set_page_config(
             page_title=self.app_name,
-            page_icon="🖥️")
+            page_icon="🍃")
 
     # method to add pages
     def add_page(self, title, func) -> None:
