@@ -44,7 +44,6 @@ To save time in this process, the IT team suggested an ML system that detects in
 * Heuristics: Currently, an employee spends around 30 minutes taking a few samples of leaves from each tree and verifying visually if the leaf tree is healthy or has powdery mildew. The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
 
 
-
 ## Dashboard Design
 
 The application was designed using Streamlit framework. There is a sidebar menu with five menu options to choose from.
@@ -61,7 +60,7 @@ This is a project summary page, showing the project dataset summary and the Clie
 * Infected plants display white powdery spots on the leaves.
 * Visual criteria are used to verify if the tree leaf is healthy or has powdery mildew.
 
-**Cherry Leaf Visualiser**
+### Page 1: Cherry Leaf Visualiser**
 
 This page lists findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew. The content of this page will answer the business requirement 1.
 
@@ -69,6 +68,13 @@ This page lists findings related to a study to visually differentiate a cherry l
 * Checkbox 2 - Difference between average healthy leaf and average leaf with powdery mildew
 * Checkbox 3 - Image montage
 
+### Page 5: ML Performance Metrics
+
+This is a technical page displaying your model performance.
+
+* Train, Validation and Test Set: Labels Frequencies
+* Model History
+* Generalised Performance on Test Set
 
 **Project Dataset**
 * The available dataset contains over four thousand images taken from the Client's crop fields.
