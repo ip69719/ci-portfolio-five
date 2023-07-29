@@ -44,6 +44,13 @@ To save time in this process, the IT team suggested an ML system that detects in
 * Heuristics: Currently, an employee spends around 30 minutes taking a few samples of leaves from each tree and verifying visually if the leaf tree is healthy or has powdery mildew. The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
 
 
+## Agile methodology
+
+* Agile approach has been applied to develop this application.
+* GitHub [projects board](https://github.com/users/ip69719/projects/6/views/1) was used to create user stories and manage the work.
+![]()
+
+
 ## Dashboard Design
 
 The application was designed using Streamlit framework. There is a sidebar menu with five menu options to choose from.
