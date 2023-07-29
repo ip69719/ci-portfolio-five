@@ -84,6 +84,10 @@ This page contains:
 * A User Interface with a file uploader widget giving the User the ability to upload multiple images. For each image, it will display the image and a prediction statement, indicating if a cherry leaf is healthy or contains powdery mildew and the probability associated with this statement.
 * A table with the image name and prediction results, and a download button to download the table.
 
+### Page 3: Project Hypothesis
+
+This page states project hypothesis and how it was validated.
+
 ### Page 5: ML Performance Metrics
 
 This is a technical page displaying your model performance.
