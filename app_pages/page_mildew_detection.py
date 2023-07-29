@@ -2,25 +2,27 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import pandas as pd
+# The below code is from the CI "Malaria Detector" walkthrough project
 from src.data_management import download_dataframe_as_csv
 from src.machine_learning.predictive_analysis import (
                                                     load_model_and_predict,
                                                     resize_input_image,
-                                                    plot_predictions_probabilities
+                                                    plot_predictions_probabilities  # noqa:E501
                                                     )
 
 
 def page_mildew_detection_body():
     st.write("### Mildew Detection")
     st.info(
-        f"* The client is interested in predicting if a cherry leaf is healthy "
+        f"The Client is interested in predicting if a cherry leaf is healthy "
         f"or contains powdery mildew."
         )
 
     st.write("---")
-    images_buffer = st.file_uploader('Upload images of leaf samples here. You can upload more than one image at a time.',
-                                        type='png',accept_multiple_files=True)
-   
+    images_buffer = st.file_uploader(
+        'Upload images of leaf samples here. You can upload more than one image at a time.',
+        type='png', accept_multiple_files=True)
+
     if images_buffer is not None:
         df_report = pd.DataFrame([])
         for image in images_buffer:
@@ -35,9 +37,9 @@ def page_mildew_detection_body():
             pred_proba, pred_class = load_model_and_predict(resized_img, version=version)
             plot_predictions_probabilities(pred_proba, pred_class)
 
-            df_report = df_report.append({"Name":image.name, 'Result': pred_class },
+            df_report = df_report.append({"Name":image.name, 'Result': pred_class},
                                         ignore_index=True)
-        
+
         if not df_report.empty:
             st.success("Analysis Report")
             st.table(df_report)
