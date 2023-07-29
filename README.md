@@ -127,10 +127,20 @@ This is a technical page displaying the ML model performance.
 * [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 ### Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+
+* [jupyter notebook](https://jupyter.org) was used for documenting and running the ML pipelines.
+* [TensorFlow](https://www.tensorflow.org/overview) in conjuction with [Keras](https://keras.io/) were used for in image preprocessing and to create CNN model.
+* [TensorFlow](https://www.tensorflow.org/overview) was used to fit the CNN model.
+* [NumPy](https://numpy.org/) package was used  to convert images into arrays and for array manipulation.
+* [pandas](https://pandas.pydata.org/) was used to structure and manipulate the data.
+* [joblib](https://pypi.org/project/joblib/) for saving and loading image shapes and ML model outputs.
+* [matplotlib](https://matplotlib.org/) was used for creating plots for data visualisation.
+* [seaborn](https://seaborn.pydata.org/) was used in conjuction with matplotplib library for data visualisation.
+* [plotly](https://plotly.com/python/) was used for ploting charts for data visualisation.
 * [Streamlit](https://streamlit.io/) Python-based library was used to create the dashboard for the app.
 
 ### Other Frameworks, Libraries & Programs Used
+
 * [Git](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) is used to store the project code after being pushed from Git.
 * [Heroku](https://www.heroku.com/about) was used to deploy the app.
