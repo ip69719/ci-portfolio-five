@@ -51,6 +51,8 @@ The application was designed using Streamlit framework. There is a sidebar menu 
 
 ### Page 1: Quick Project Summary
 
+This is a project summary page, showing the project dataset summary and the Client's requirements.
+
 **General Information**
 
 * The Client is facing a challenge where their cherry plantations have been presenting powdery mildew. The cherry plantation crop is one of the finest products in the portfolio and the company concerned about supplying the market with a product of compromised quality.
@@ -59,6 +61,13 @@ The application was designed using Streamlit framework. There is a sidebar menu 
 * Infected plants display white powdery spots on the leaves.
 * Visual criteria are used to verify if the tree leaf is healthy or has powdery mildew.
 
+**Cherry Leaf Visualiser**
+
+This page lists findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew. The content of this page will answer the business requirement 1.
+
+* Checkbox 1 - Difference between average and variability images
+* Checkbox 2 - Difference between average healthy leaf and average leaf with powdery mildew
+* Checkbox 3 - Image montage
 
 
 **Project Dataset**
