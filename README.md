@@ -133,9 +133,6 @@ This is a technical page displaying your model performance.
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 ### Code
 
 - Code to implement the project idea was taken from [this](https://github.com/Code-Institute-Org/WalkthroughProject01) Code Institute Walkthrough Project and [GyanShashwat1611](https://github.com/GyanShashwat1611/WalkthroughProject01/) github repository.
