@@ -129,7 +129,8 @@ This is a technical page displaying the ML model performance.
 ### Other Frameworks, Libraries & Programs Used
 * [Git](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) is used to store the project code after being pushed from Git.
-* [Heroku](https://www.heroku.com/about) was used to deploy the app. 
+* [Heroku](https://www.heroku.com/about) was used to deploy the app.
+* [CI Python Linter](https://pep8ci.herokuapp.com/#) was used to validate Python code.
 
 ## Credits 
 
