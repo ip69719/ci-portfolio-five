@@ -37,9 +37,9 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## ML Business Case
 * We want a ML model to predict if a cherry leaf has powdery mildew or not, based on historical image data. It is a supervised model, a 2-class, single-label, classification model.
-* Our  desired outcome is provide Farmy & Foods with a faster and reliable solution for detecting powdery mildew on cherry leaves.
+* Our  desired outcome is to provide Farmy & Foods with a faster and reliable solution for detecting powdery mildew on cherry leaves.
 * The model success metrics are:
-	* We agreed with the client a degree of 97% accuracy on the test set.
+	* We agreed with the Client a degree of 97% accuracy on the test set.
 * The model output is defined as a flag, indicating if the cherry leaf has powdery mildew and the associated probability of being infected or not. An employee will upload the picture to the App. The prediction is made on the fly (not in batches).
 * Heuristics: Currently, an employee spends around 30 minutes taking a few samples of leaves from each tree and verifying visually if the leaf tree is healthy or has powdery mildew. The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
 
