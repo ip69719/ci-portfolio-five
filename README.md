@@ -69,13 +69,20 @@ This is a project summary page, showing the project dataset summary and the Clie
     * 1 - The Client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
     * 2 - The Client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-### Page 1: Cherry Leaf Visualiser**
+### Page 2: Cherry Leaf Visualiser
 
 This page lists findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew. The content of this page will answer the business requirement 1.
 
 * Checkbox 1 - Difference between average and variability images
 * Checkbox 2 - Difference between average healthy leaf and average leaf with powdery mildew
 * Checkbox 3 - Image montage
+
+### Page 3: Mildew Detection
+
+This page contains:
+* A link to download a set of cherry leaf images for live prediction
+* A User Interface with a file uploader widget giving the User the ability to upload multiple images. For each image, it will display the image and a prediction statement, indicating if a cherry leaf is healthy or contains powdery mildew and the probability associated with this statement.
+* A table with the image name and prediction results, and a download button to download the table.
 
 ### Page 5: ML Performance Metrics
 
