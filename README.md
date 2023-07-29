@@ -105,15 +105,19 @@ This is a technical page displaying the ML model performance.
 ### Heroku
 
 * [Link to the live project](https://ip-cherry-mildew-detection-e596dcba871a.herokuapp.com/)
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
 
+* The project was deployed to Heroku using the following steps:
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
 6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
+
+
+* Python version for this project is set to 3.8.12. This version is not supported by Heroku's current default stack, which at the time of deployment is Heroku-22. The stack for the app was changed from Heroku CLI and set to Heroku-20:
+    * login to Heroku with `heroku login -i` command
+    * run the following command `heroku stack:set heroku-20 --app APP` (APP is the Heroku app name)
 
 
 ## Technologies used
