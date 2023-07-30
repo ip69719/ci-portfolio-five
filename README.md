@@ -48,7 +48,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 * Agile approach has been applied to develop this application.
 * GitHub [projects board](https://github.com/users/ip69719/projects/6/views/1) was used to create user stories and manage the work.
-![]()
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/agile_board.png)
 
 
 ## Dashboard Design
