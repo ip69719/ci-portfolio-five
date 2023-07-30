@@ -75,6 +75,7 @@ This is a project summary page, showing the project dataset summary and the Clie
 * The project has two business requirements:
     * 1 - The Client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
     * 2 - The Client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/page_summary.png)
 
 ### Page 2: Cherry Leaf Visualiser
 
@@ -83,6 +84,7 @@ This page lists findings related to a study to visually differentiate a cherry l
 * Checkbox 1 - Difference between average and variability images
 * Checkbox 2 - Difference between average healthy leaf and average leaf with powdery mildew
 * Checkbox 3 - Image montage
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/cherry_leaf_visualiser.png)
 
 ### Page 3: Mildew Detection
 
@@ -91,10 +93,14 @@ This page contains:
 * A link to download a set of cherry leaf images for live prediction
 * A User Interface with a file uploader widget giving the User the ability to upload multiple images. For each image, it will display the image and a prediction statement, indicating if a cherry leaf is healthy or contains powdery mildew and the probability associated with this statement.
 * A table with the image name and prediction results, and a download button to download the table.
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/mildew_detector_1.png)
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/mildew_detector_2.png)
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/mildew_detector_3.png)
 
 ### Page 4: Project Hypothesis
 
 This page states project hypothesis and how it was validated.
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/project_hypothesis.png)
 
 ### Page 5: ML Performance Metrics
 
@@ -103,7 +109,8 @@ This is a technical page displaying the ML model performance.
 * Train, Validation and Test Set: Labels Frequencies
 * Model History
 * Generalised Performance on Test Set
-
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/ml_performance_1.png)
+![](https://github.com/ip69719/ci-portfolio-five/blob/main/assets/images/ml_performance_2.png)
 
 ## Unfixed Bugs
 
