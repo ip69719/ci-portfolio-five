@@ -86,6 +86,7 @@ This page lists findings related to a study to visually differentiate a cherry l
 
 ### Page 3: Mildew Detection
 
+The content of this page will answer the business requirement 2.
 This page contains:
 * A link to download a set of cherry leaf images for live prediction
 * A User Interface with a file uploader widget giving the User the ability to upload multiple images. For each image, it will display the image and a prediction statement, indicating if a cherry leaf is healthy or contains powdery mildew and the probability associated with this statement.
@@ -105,7 +106,12 @@ This is a technical page displaying the ML model performance.
 
 
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+* There are two minor defects I am aware of that remain open. These defects do not have a significant impact on any of the functionalities and are treated as a low priority items for fixing in upcoming releases. These defects were not resolved due to project deadline.
+
+*  Both defects are documented and tracked as [issues](https://github.com/ip69719/ci-portfolio-five/issues) on GitHub. The open issues are:
+    * The page favicon does not show up on Streamlit app
+    * The images on the Cherry Leaf Visualiser page showing the difference between average healthy leaf and average leaf with powdery mildew appear too small, especially on smaller devices. The difference image title is overlapping the average powdery mildew image making titles difficult to read.
 
 
 ## Deployment
