@@ -18,7 +18,14 @@ def page_mildew_detection_body():
         f"or contains powdery mildew."
         )
 
+    st.write(
+        f"You can download images of healthy cherry leaves and leaves with "
+        f"powdery mildew for live prediction from "
+        F"[here](https://www.kaggle.com/codeinstitute/cherry-leaves)."
+        )
+
     st.write("---")
+
     images_buffer = st.file_uploader(
         'Upload images of leaf samples here. You can upload more than one image at a time.',  # noqa:E501
         type=['png', 'jpg'], accept_multiple_files=True)
